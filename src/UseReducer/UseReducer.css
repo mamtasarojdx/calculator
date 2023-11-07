@@ -1,0 +1,36 @@
+.reducer-2{
+    justify-content: space-evenly;
+    color: white;
+}
+
+.count {
+    margin: 70px 0 115px 285px;
+    padding-top: 29px;
+    color: #3b71ca;
+    /* text-decoration: underline; */
+}
+
+#increment-1 {
+   background-color:#3b71ca;
+   padding: 0px 12px 3px 12px;
+   border-radius: 5px;
+}
+
+#decrement-1 {
+    background-color: #3b71ca;
+    padding: 0px 18px 3px 18px;
+    border-radius: 5px;
+}
+
+#reset-1 {
+    background-color: #3b71ca;
+    padding: 4px 15px 8px 15px;
+    border-radius: 5px;
+}
+
+.reducer-1 {
+    width: 50%;
+    padding: 0px 0 30px 0;
+    margin: 17px 0px 0 360px;
+
+}

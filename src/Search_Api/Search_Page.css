@@ -1,0 +1,70 @@
+.submit-btn {
+  width: 9%;
+  height: 8%;
+  padding: 27px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px #eff1f2;
+  border: 3px solid rgba(131, 107, 196, 0.351);
+  background-color: rgba(146, 121, 216, 0.21);
+  position: absolute;
+  top: 1%;
+  right: 7%;
+}
+
+.search-table{
+  width: 86%;
+  padding-bottom: 5px;
+  margin: 0px 0 10px 110px;
+  background-color: rgba(212, 168, 222, 0.655);
+  font-weight: bold;
+  border-radius: 10px;
+}
+.pag-2{
+  padding-left: 48%;
+  
+}
+
+.activePage {
+ border: 1px solid black;
+ font-weight: bolder;
+ color: rgb(226, 16, 16);
+ background-color: rgba(228, 219, 230, 0.399);
+}
+
+.pag1{
+  border: 1px solid rgba(228, 219, 230, 0.399);
+ 
+}
+
+
+button{
+  background-color:rgba(131, 107, 196, 0.351);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:rgba(146, 121, 216, 0.21);
+  }
+  .search-1 {
+    margin: 5px 0 29px 117px;
+    padding: 15px 20px;
+    width: 74%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px #eff1f2;
+    border: 3px solid rgba(131, 107, 196, 0.351);
+    background-color: rgba(146, 121, 216, 0.21);
+    position: relative;
+}
+
+/* 
+  tr:hover {
+    background-color: #ddd;
+  }
+    */
