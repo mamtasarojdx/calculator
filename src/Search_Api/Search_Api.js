@@ -21,6 +21,8 @@ function Search_Api() {
   }, []);
   console.log(data);
 
+  
+
   const handleTitle = () => {
     if (isNaN(searchText)) {
       fetch(`https://jsonplaceholder.typicode.com/posts?title=${searchText}`) // Fetch the API data
@@ -37,6 +39,7 @@ function Search_Api() {
     }
   };
 
+  
   useEffect(() => {
     if (currentPage === 10) {
       document.getElementById("next").style.cursor = "not-allowed";
@@ -55,6 +58,7 @@ function Search_Api() {
       document.getElementById("prev").style.color = "black";
     }
   }, [currentPage]);
+
 
   function Click() {
     setViewMore(!viewMore);
@@ -163,7 +167,7 @@ function Search_Api() {
         </div>
 
         <div className="d-inline-flex pag-2">
-          <button type="button" id="prev" className="bt2 fw-bold c" onClick={prevClick} style={{ border: "1px solid rgba(228, 219, 230, 0.399)" }}>
+          <button type="button"  id="prev" className="bt2 fw-bold c" onClick={prevClick} style={{ border: "1px solid rgba(228, 219, 230, 0.399)" }}>
             PREV
           </button>
           <button type="button" className="bt2 fw-bold" onClick={firstClick} style={{ border: "1px solid rgba(228, 219, 230, 0.399)" }}>
