@@ -18,24 +18,24 @@ function Local_Api() {
   }, []);
 
 
-  useEffect(() => {
-    if (currentPage === 10) {
-      document.getElementById("next").style.cursor = "not-allowed";
-      document.getElementById("next").style.color = "lightgray";
-      document.getElementById("prev").style.cursor = "pointer";
-      document.getElementById("prev").style.color = "black";
-    } else if (currentPage === 1) {
-      document.getElementById("prev").style.cursor = "not-allowed";
-      document.getElementById("prev").style.color = "lightgray";
-      document.getElementById("next").style.cursor = "pointer";
-      document.getElementById("next").style.color = "black";
-    } else {
-      document.getElementById("next").style.cursor = "pointer";
-      document.getElementById("next").style.color = "black";
-      document.getElementById("prev").style.cursor = "pointer";
-      document.getElementById("prev").style.color = "black";
-    }
-  }, [currentPage]);
+  // useEffect(() => {
+  //   if (currentPage === 10) {
+  //     document.getElementById("next").style.cursor = "not-allowed";
+  //     document.getElementById("next").style.color = "lightgray";
+  //     document.getElementById("prev").style.cursor = "pointer";
+  //     document.getElementById("prev").style.color = "black";
+  //   } else if (currentPage === 1) {
+  //     document.getElementById("prev").style.cursor = "not-allowed";
+  //     document.getElementById("prev").style.color = "lightgray";
+  //     document.getElementById("next").style.cursor = "pointer";
+  //     document.getElementById("next").style.color = "black";
+  //   } else {
+  //     document.getElementById("next").style.cursor = "pointer";
+  //     document.getElementById("next").style.color = "black";
+  //     document.getElementById("prev").style.cursor = "pointer";
+  //     document.getElementById("prev").style.color = "black";
+  //   }
+  // }, [currentPage]);
 
   function Click() {
     setViewMore(!viewMore);

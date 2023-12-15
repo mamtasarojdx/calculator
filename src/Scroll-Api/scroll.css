@@ -1,0 +1,16 @@
+.table2 {
+  padding-bottom: 5px;
+  margin: 0px 0 10px 0px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+th,
+td {
+  white-space: nowrap;
+}
